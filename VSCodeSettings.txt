@@ -1,0 +1,110 @@
+{
+  "window.zoomLevel": 0,
+  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+  // "terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+  "workbench.activityBar.visible": true,
+  "editor.fontSize": 14,
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "editor.formatOnSave": true,
+  "emmet.triggerExpansionOnTab": true,
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.iconTheme": "vscode-icons",
+  "editor.matchBrackets": false,
+  "subtleBrackets.styles": {
+    "global": {
+      "color": "yellow",
+      "borderWidth": "1px"
+    }
+  },
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "keyword.control.flow.js",
+        "settings": {
+          "foreground": "#cf80e9",
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": [
+          "entity.other.inherited-class",
+          "entity.name.type.class"
+        ],
+        "settings": {
+          "foreground": "#cf80e9",
+          "fontStyle": ""
+        }
+      },
+      {
+        "scope": [
+          "variable.other.readwrite.alias",
+          "variable.other.object.js"
+        ],
+        "settings": {
+          "foreground": "#96bdf7"
+        }
+      },
+      {
+        "scope": [
+          "entity.name.tag",
+          "support.class.component.js"
+        ],
+        "settings": {
+          "foreground": "#77d8e9"
+        }
+      },
+      {
+        "scope": [
+          "meta.tag",
+          "meta.brace.square.js",
+          "punctuation.accessor.js",
+          "variable",
+          "variable.other.readwrite",
+          "support.variable.property.dom"
+        ],
+        "settings": {
+          "foreground": "#cacaca",
+          "fontStyle": ""
+        }
+      },
+      {
+        "scope": [
+          "storage",
+          "variable.language.this.js",
+          "keyword.operator.spread.js"
+        ],
+        "settings": {
+          "foreground": "#e69f43",
+          "fontStyle": ""
+        }
+      },
+      {
+        "scope": [
+          "storage.type.function.arrow.js",
+          "keyword.operator.logical.js",
+          "keyword.operator.comparison",
+          "keyword.operator.arithmetic"
+        ],
+        "settings": {
+          "foreground": "#56b6c2ff"
+        }
+      },
+    ]
+  },
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.wordWrapColumn": 150,
+  "editor.wrappingIndent": "indent",
+  "editor.fontFamily": "Consolas",
+  "terminal.integrated.fontFamily": "Consolas",
+  "workbench.colorTheme": "One Dark Pro",
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#252525",
+    "panel.background": "#252525",
+    "sideBar.background": "#252525",
+    "tab.activeBackground": "#454545",
+    "editor.background": "#252525",
+    "sideBar.border": "#444444",
+    "editorGroupHeader.tabsBorder": "#444444"
+  }
+}

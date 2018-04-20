@@ -1,0 +1,28 @@
+[user]
+	email = 
+	name = 
+[core]
+	autocrlf = true
+  editor = 'C:\\Program Files\\Microsoft VS Code\\Code.exe' -wait --new-window
+	excludesfile = C:\\Users\\Dom Net 240\\Documents\\gitignore_global.txt
+[help]
+	autocorrect = 1
+[alias]
+	st = status
+	br = branch
+	co = checkout
+	cam = commit -am
+	ci = commit
+	cob = checkout -b
+	lg = log --color --graph --pretty=format:'%C(magenta)%h%Creset -%C(cyan)%d%Creset %s %C(dim green)(%cr)%C(dim yellow)<%an>%Creset' --abbrev-commit
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[color "status"]
+  added = green
+  changed = red
+  untracked = blue
+[color "branch"]
+  remote = yellow
