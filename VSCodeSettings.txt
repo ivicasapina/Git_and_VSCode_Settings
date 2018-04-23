@@ -28,6 +28,15 @@
       },
       {
         "scope": [
+          "support.function",
+          "entity.name.function"
+        ],
+        "settings": {
+          "foreground": "#61afefff"
+        }
+      },
+      {
+        "scope": [
           "entity.other.inherited-class",
           "entity.name.type.class"
         ],
@@ -42,7 +51,7 @@
           "variable.other.object.js"
         ],
         "settings": {
-          "foreground": "#96bdf7"
+          "foreground": "#adc9f1"
         }
       },
       {
