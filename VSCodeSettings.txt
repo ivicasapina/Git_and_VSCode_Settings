@@ -7,7 +7,7 @@
   "editor.tabSize": 2,
   "editor.detectIndentation": false,
   "editor.formatOnSave": true,
-  "emmet.includeLanguages": {
+   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   },
   "emmet.syntaxProfiles": {
