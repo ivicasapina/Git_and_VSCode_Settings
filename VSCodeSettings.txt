@@ -7,7 +7,12 @@
   "editor.tabSize": 2,
   "editor.detectIndentation": false,
   "editor.formatOnSave": true,
-  "emmet.triggerExpansionOnTab": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
   "workbench.startupEditor": "newUntitledFile",
   "workbench.iconTheme": "vscode-icons",
   "editor.matchBrackets": false,
@@ -47,6 +52,24 @@
       },
       {
         "scope": [
+          "string.quoted.single",
+          "string.quoted.double",
+          "string.template.js"
+        ],
+        "settings": {
+          "foreground": "#98c379ff"
+        }
+      },
+      {
+        "scope": [
+          "comment.line.double-slash",
+        ],
+        "settings": {
+          "foreground": "#7f848eff"
+        }
+      },
+      {
+        "scope": [
           "variable.other.readwrite.alias",
           "variable.other.object.js"
         ],
@@ -80,6 +103,7 @@
       {
         "scope": [
           "storage",
+          "storage.type",
           "variable.language.this.js",
           "keyword.operator.spread.js"
         ],
@@ -106,7 +130,6 @@
   "editor.wrappingIndent": "indent",
   "editor.fontFamily": "Consolas",
   "terminal.integrated.fontFamily": "Consolas",
-  "workbench.colorTheme": "One Dark Pro",
   "workbench.colorCustomizations": {
     "statusBar.background": "#252525",
     "panel.background": "#252525",
@@ -115,5 +138,6 @@
     "editor.background": "#252525",
     "sideBar.border": "#444444",
     "editorGroupHeader.tabsBorder": "#444444"
-  }
+  },
+  "workbench.colorTheme": "One Dark Pro"
 }
