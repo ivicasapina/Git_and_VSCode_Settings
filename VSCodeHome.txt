@@ -1,0 +1,174 @@
+{
+  "window.zoomLevel": 0,
+  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+  "workbench.activityBar.visible": true,
+  "editor.fontSize": 14,
+  "editor.tabSize": 2,
+  "editor.tabCompletion": true,
+  "editor.detectIndentation": false,
+  "editor.formatOnSave": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.iconTheme": "vscode-icons",
+  "editor.matchBrackets": false,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          "support.class.console.js"
+        ],
+        "settings": {
+          "foreground": "#31dd8d"
+        }
+      },
+      {
+        "scope": [
+          "entity.name.type",
+          "entity.other.inherited-class",
+          "variable.other.readwrite.js",
+          "variable.parameter.js"
+        ],
+        "settings": {
+          "foreground": "#f4f4f4"
+        }
+      },
+      {
+        "scope": [
+          "support.class.component.js",
+          "entity.name.tag",
+          "entity.name.tag.css",
+          "entity.other.attribute-name.class.css",
+          "entity.other.attribute-name.id.css"
+        ],
+        "settings": {
+          "foreground": "#9cdcfeff"
+        }
+      },
+      {
+        "scope": [
+          "storage.type",
+          "storage.modifier",
+          "entity.name.function",
+          "keyword.control.flow.js",
+          "punctuation.definition.template-expression.begin.js",
+          "punctuation.definition.template-expression.end.js",
+          "punctuation.section.embedded.begin.js",
+          "punctuation.section.embedded.end.js",
+          "keyword.operator"
+        ],
+        "settings": {
+          "foreground": "#f28eff"
+        }
+      },
+      {
+        "scope": [
+          "string.quoted.single.js",
+          "string.quoted.double.js",
+          "string.template.js",
+          "string.quoted.double.json",
+          "string.quoted.single.json",
+          "string.quoted.double.html",
+          "string.quoted.single.html"
+        ],
+        "settings": {
+          "foreground": "#98c379ff"
+        }
+      },
+      {
+        "scope": [
+          "meta.object-literal.key.js",
+          "support.type.property-name.css"
+        ],
+        "settings": {
+          "foreground": "#f86e6e"
+        }
+      },
+      {
+        "scope": [
+          "constant.language.boolean.true.js",
+          "constant.language.boolean.false.js",
+          "constant.language.null.js",
+          "constant.language.undefined.js"
+        ],
+        "settings": {
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": [
+          "constant.numeric",
+          "keyword.other.unit.px.css"
+        ],
+        "settings": {
+          "foreground": "#eed262"
+        }
+      },
+      {
+        "scope": [
+          "comment.line.double-slash.js",
+          "comment.block.css",
+          "punctuation.definition.comment",
+          "comment.block.html"
+        ],
+        "settings": {
+          "foreground": "#7f848eff"
+        }
+      },
+      {
+        "scope": [
+          "entity.other.attribute-name"
+        ],
+        "settings": {
+          "foreground": "#cab96e"
+        }
+      },
+      {
+        "scope": [
+          "entity.other.attribute-name"
+        ],
+        "settings": {
+          "foreground": "#cab96e"
+        }
+      },
+      {
+        "scope": [
+          "support.function.console.js",
+          "entity.name.function.js",
+          "support.function.js"
+        ],
+        "settings": {
+          "foreground": "#569cd6ff"
+        }
+      }
+    ]
+  },
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.wordWrapColumn": 150,
+  "editor.wrappingIndent": "indent",
+  "editor.fontFamily": "Consolas",
+  "terminal.integrated.fontFamily": "Consolas",
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#1e1d20",
+    "activityBar.background": "#1e1d20",
+    "sideBar.background": "#1b191d",
+    "tab.activeBackground": "#1b191d",
+    "tab.inactiveBackground": "#302b2b",
+    "editor.background": "#1a151b",
+    "editor.lineHighlightBackground": "#312f2f",
+    "editor.selectionBackground": "#312f2f",
+    "sideBar.border": "#444444",
+    "editorGroupHeader.tabsBorder": "#444444"
+  },
+  "subtleBrackets.styles": {
+    "global": {
+      "borderWidth": "1px",
+      "color": "yellow"
+    }
+  },
+  "workbench.colorTheme": "Visual Studio Dark"
+}
