@@ -118,7 +118,8 @@
       {
         "scope": [
           "entity.name.type",
-          "support.class.console.js"
+          "support.class.console.js",
+          "support.class.builtin.js"
         ],
         "settings": {
           "foreground": "#4ec9b0ff",
