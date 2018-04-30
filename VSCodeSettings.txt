@@ -7,7 +7,7 @@
   "editor.tabSize": 2,
   "editor.detectIndentation": false,
   "editor.formatOnSave": true,
-   "emmet.includeLanguages": {
+  "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   },
   "emmet.syntaxProfiles": {
@@ -34,7 +34,8 @@
       {
         "scope": [
           "support.function",
-          "entity.name.function"
+          "entity.name.function",
+          "keyword.operator.new.js"
         ],
         "settings": {
           "foreground": "#61afefff"
@@ -43,7 +44,8 @@
       {
         "scope": [
           "entity.other.inherited-class",
-          "entity.name.type.class"
+          "entity.name.type.class",
+          "entity.name.type"
         ],
         "settings": {
           "foreground": "#cf80e9",
@@ -105,11 +107,21 @@
           "storage",
           "storage.type",
           "variable.language.this.js",
-          "keyword.operator.spread.js"
+          "keyword.operator.spread.js",
+          "entity.name.type"
         ],
         "settings": {
           "foreground": "#e69f43",
           "fontStyle": ""
+        }
+      },
+      {
+        "scope": [
+          "entity.name.type",
+          "support.class.console.js"
+        ],
+        "settings": {
+          "foreground": "#4ec9b0ff",
         }
       },
       {
