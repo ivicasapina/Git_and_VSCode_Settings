@@ -1,0 +1,18 @@
+1.korak
+--------
+#!/bin/sh
+"C:/Program Files (x86)/Notepad++/notepad++.exe" -multiInst  -nosession "$*"
+
+2.korak
+-------
+git config --global core.editor c:/msysgit/git/npp.bat
+
+3.korak
+--------
+otici na http://www.binaryfortress.com/NotepadReplacer/ i skinuti notepadd replacer
+pri instalaciji te pita koji programom zelimo zamjeniti, odemo do notepad++.exe i izaberemo
+
+defaultni alias je 
+	notepad 
+a nekima radi i 
+	npp
