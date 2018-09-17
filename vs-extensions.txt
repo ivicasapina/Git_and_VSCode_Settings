@@ -1,0 +1,8 @@
+Auto Rename Tag
+Bracket Pair Colorizer
+Color Highlight
+Css Formatter
+One Dark Pro
+SCSS IntelliSense
+Subtle Match Brackets
+vscode-icons
