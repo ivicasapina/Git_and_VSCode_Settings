@@ -1,0 +1,68 @@
+{
+  "Class Component": {
+    "prefix": "cc",
+    "body": [
+      "import React, { Component } from 'react';",
+      "",
+      "class ${1:foo} extends Component {",
+      "	render() {",
+      "		return (",
+      "			<div>",
+      "				${1:foo}",
+      "			</div>",
+      "		);",
+      "	}",
+      "};",
+      "",
+      "export default ${1:foo};",
+    ],
+    "description": "Class Component Template"
+  },
+  "Functional Component": {
+    "prefix": "fc",
+    "body": [
+      "import React from 'react';",
+      "",
+      "const ${1:foo} = (props) => {",
+      "	return (",
+      "		<div>",
+      "			${1:foo}",
+      "		</div>",
+      "	);",
+      "};",
+      "",
+      "export default ${1:foo};",
+    ],
+    "description": "Functional Component Template"
+  },
+  "Simple Functional Component": {
+    "prefix": "sfc",
+    "body": [
+      "import React from 'react';",
+      "",
+      "const ${1:foo} = (props) => (",
+      "	<div>",
+      "		${1:foo}",
+      "	</div>",
+      ");",
+      "",
+      "export default ${1:foo};",
+    ],
+    "description": "Simple Functional Component Template"
+  },
+  "Mobx store": {
+    "prefix": "ms",
+    "body": [
+      "import { observable, action, computed } from 'mobx';",
+      "",
+      "class ${1:foo} {",
+      "",
+      "};",
+      "",
+      "const store = new ${1:foo}();",
+      "",
+      "export default store;"
+    ],
+    "description": "Mobix store template"
+  }
+}
