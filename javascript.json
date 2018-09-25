@@ -50,6 +50,60 @@
     ],
     "description": "Simple Functional Component Template"
   },
+  "React Native Class Component": {
+    "prefix": "rncc",
+    "body": [
+      "import React, { Component } from 'react';",
+      "import { View, Text } from 'react-native';",
+      "",
+      "class ${1:foo} extends Component {",
+      "	render() {",
+      "		return (",
+      "			<View>",
+      "				<Text>${1:foo}</Text>",
+      "			</View>",
+      "		);",
+      "	}",
+      "};",
+      "",
+      "export default ${1:foo};",
+    ],
+    "description": "React Native Class Component Template"
+  },
+  "React Native Functional Component": {
+    "prefix": "rnfc",
+    "body": [
+      "import React from 'react';",
+      "import { View, Text } from 'react-native';",
+      "",
+      "const ${1:foo} = (props) => {",
+      "	return (",
+      "		<View>",
+      "			<Text>${1:foo}</Text>",
+      "		</View>",
+      "	);",
+      "};",
+      "",
+      "export default ${1:foo};",
+    ],
+    "description": "React Native Functional Component Template"
+  },
+  "React Native Simple Functional Component": {
+    "prefix": "rnsfc",
+    "body": [
+      "import React from 'react';",
+      "import { View, Text } from 'react-native';",
+      "",
+      "const ${1:foo} = (props) => (",
+      "	<View>",
+      "		<Text>${1:foo}</Text>",
+      "	</View>",
+      ");",
+      "",
+      "export default ${1:foo};",
+    ],
+    "description": "React Native Simple Functional Component Template"
+  },
   "Mobx store": {
     "prefix": "ms",
     "body": [
@@ -61,7 +115,7 @@
       "",
       "const store = new ${1:foo}();",
       "",
-      "export default store;"
+      "export default store;",
     ],
     "description": "Mobix store template"
   }
