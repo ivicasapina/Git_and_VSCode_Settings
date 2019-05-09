@@ -1,10 +1,10 @@
 [user]
-	email = 
+	email = @domnet.ba
 	name = 
 [core]
-	autocrlf = true
   editor = 'C:\\Program Files\\Microsoft VS Code\\Code.exe' -wait --new-window
 	excludesfile = C:\\Users\\Dom Net 240\\Documents\\gitignore_global.txt
+	autocrlf = true
 [help]
 	autocorrect = 1
 [alias]
@@ -14,7 +14,7 @@
 	cam = commit -am
 	ci = commit
 	cob = checkout -b
-	lg = log --color --graph --pretty=format:'%C(magenta)%h%Creset -%C(cyan)%d%Creset %s %C(dim green)(%cr)%C(dim yellow)<%an>%Creset' --abbrev-commit
+	lg = log --color --graph --pretty=format:'%C(magenta)%h%Creset -%C(cyan)%d%Creset %s %C(dim green)(%cr)%C(yellow)<%an>%Creset' --abbrev-commit
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
@@ -26,3 +26,6 @@
   untracked = blue
 [color "branch"]
   remote = yellow
+[gitflow "feature.finish"]
+	no-ff = true
+	keepremote = true
